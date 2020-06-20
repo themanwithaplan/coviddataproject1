@@ -10,3 +10,15 @@
 /Users/test/Documents/GitHub/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.dll
 /Users/test/Documents/GitHub/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.pdb
 /Users/test/Documents/GitHub/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.genruntimeconfig.cache
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/bin/Debug/netcoreapp3.1/coviddataproject1.deps.json
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/bin/Debug/netcoreapp3.1/coviddataproject1.runtimeconfig.json
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/bin/Debug/netcoreapp3.1/coviddataproject1.runtimeconfig.dev.json
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/bin/Debug/netcoreapp3.1/coviddataproject1.dll
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/bin/Debug/netcoreapp3.1/coviddataproject1.pdb
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.csprojAssemblyReference.cache
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.AssemblyInfoInputs.cache
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.AssemblyInfo.cs
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.csproj.CoreCompileInputs.cache
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.dll
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.pdb
+/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/obj/Debug/netcoreapp3.1/coviddataproject1.genruntimeconfig.cache

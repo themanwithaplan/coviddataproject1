@@ -1,0 +1,12 @@
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/bin/Debug/netcoreapp3.1/newproj.deps.json
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/bin/Debug/netcoreapp3.1/newproj.runtimeconfig.json
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/bin/Debug/netcoreapp3.1/newproj.runtimeconfig.dev.json
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/bin/Debug/netcoreapp3.1/newproj.dll
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/bin/Debug/netcoreapp3.1/newproj.pdb
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/obj/Debug/netcoreapp3.1/newproj.csprojAssemblyReference.cache
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/obj/Debug/netcoreapp3.1/newproj.AssemblyInfoInputs.cache
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/obj/Debug/netcoreapp3.1/newproj.AssemblyInfo.cs
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/obj/Debug/netcoreapp3.1/newproj.csproj.CoreCompileInputs.cache
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/obj/Debug/netcoreapp3.1/newproj.dll
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/obj/Debug/netcoreapp3.1/newproj.pdb
+/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/obj/Debug/netcoreapp3.1/newproj.genruntimeconfig.cache

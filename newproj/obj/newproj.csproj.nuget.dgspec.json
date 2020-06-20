@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/coviddataproject1.csproj": {}
+    "/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/newproj.csproj": {}
   },
   "projects": {
-    "/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/coviddataproject1.csproj": {
+    "/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/newproj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/coviddataproject1.csproj",
-        "projectName": "coviddataproject1",
-        "projectPath": "/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/coviddataproject1.csproj",
+        "projectUniqueName": "/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/newproj.csproj",
+        "projectName": "newproj",
+        "projectPath": "/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/newproj.csproj",
         "packagesPath": "/Users/snn/.nuget/packages/",
-        "outputPath": "/Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/obj/",
+        "outputPath": "/Users/snn/Documents/GitHub2020/coviddataproject1/newproj/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/snn/.config/NuGet/NuGet.Config"
