@@ -1,0 +1,11 @@
+,geo_merge,cases_final,case_rate_final,adj_case_rate_final,deaths_final,death_rate_final,adj_death_rate_final,persons_tested_final,testing_rate_final,adj_testing_rate_final,population
+1,City of Agoura Hills,35,35,165,1,5,5,898,4300,3860,20883
+2,City of Alhambra,226,226,243,8,9,6,4826,5565,5297,86724
+3,City of Arcadia,91,91,143,5,9,6,1816,3144,3115,57754
+4,City of Artesia,41,41,219,0,0,0,638,3799,3457,16795
+5,City of Azusa,189,189,385,5,10,13,1613,3223,3298,50040
+6,City of Baldwin Park,367,367,473,6,8,8,2860,3725,3678,76769
+7,City of Bell,350,350,1030,23,63,89,1473,4054,4172,36332
+8,City of Bell Gardens,335,335,860,10,23,42,1381,3206,3319,43071
+9,City of Bellflower,427,427,550,19,24,28,4086,5256,5172,77735
+10,City of Beverly Hills,139,139,367,5,14,8,2805,8126,7498,34520
