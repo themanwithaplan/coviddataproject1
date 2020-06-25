@@ -3,15 +3,8 @@ using System.Linq;
 using System.Collections.Generic;
 using System.IO;
 
-///Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/city_community_table-2020-06-01.csv
-///Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/city_community_table-2020-06-02.csv
-//6/1/2020
-//6/2/2020
-
-///Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/city_community_table-2020-06-03.csv
-///Users/snn/Documents/GitHub2020/coviddataproject1/coviddataproject1/city_community_table-2020-06-04.csv
-//6/3/2020
-//6/4/2020
+// Filepath example: /Users/..../city_community_table-2020-06-03.csv
+//Date Format example: 6/3/2020
 
 namespace coviddataproject1
 {
@@ -23,11 +16,10 @@ namespace coviddataproject1
         static void displayMainMenu()
         {
             Console.Clear();
-            Console.WriteLine("\nLocal COVID - Main Menu \n");
-
-            Console.WriteLine("c) List all cities \n" +
-                "i) Import data \n" +
-                "x) Exit \n");
+            Console.WriteLine("\nLocal COVID - Main Menu\n");
+            Console.WriteLine("c) List all cities\n" +
+                "i) Import data\n" +
+                "x) Exit\n");
 
             while (true)
             {
@@ -47,13 +39,10 @@ namespace coviddataproject1
                     string dataDate = Console.ReadLine();
                     Console.Write("Please enter the path to import the file: ");
 
-                    // Get the data from path.
                     string csvData = Console.ReadLine();
-
                     string[,] values = LoadCSV(csvData);
                     int num_rows = values.GetUpperBound(0) + 1;
 
-                    //Read the data and add to List 
                     for (int r = 1; r < num_rows; r++)
                     {
                         city = new City(values[r, 1], int.Parse(values[r, 11]), int.Parse(values[r, 2]),
@@ -114,36 +103,28 @@ namespace coviddataproject1
         static void displayCityMenu(string chosenCityName)
         {
             Console.Clear();
-            //var currentCity = cityList[cityChosen + 1];
             var currentCitytoDisplay = from city in cityList
                                        where city.Name == chosenCityName
-                                       orderby city.Date
+                                       orderby city.Date descending
                                        select city;
-
-            
 
             var cityPopulation = from city in cityList
                                  where city.Name == chosenCityName
                                  select city.Population;
             
-
             while (true)
             {
                 Console.WriteLine("Local COVID - {0} (Population: {1})", chosenCityName, currentCitytoDisplay.First().Population);
                 Console.WriteLine("\n{0,-8}   {1,-8}   {2,-8}   {3,-8}", "Date", "Cases", "Deaths", "Tested");
-
                 foreach (var dat in currentCitytoDisplay)
                 {
                     Console.WriteLine("{0,-8}   {1,-8}   {2,-8}   {3,-8}", dat.Date, dat.Cases, dat.Deaths, dat.Tests);
                 }
-
                 Console.WriteLine("\nc) Back to Cities \n" +
                     "m) Back to Main Menu \n" +
                     "x) Exit");
-
                 Console.Write("\nPlease enter your choice: ");
                 string cityMenuChoice = Console.ReadLine();
-
                 if (cityMenuChoice.ToLower() == "x")
                 {
                     Environment.Exit(0);
@@ -171,22 +152,13 @@ namespace coviddataproject1
 
         private static string[,] LoadCSV(string filename)
         {
-            // Get the file's text.
             string whole_file = System.IO.File.ReadAllText(filename);
-
-            // Split into lines.
             whole_file = whole_file.Replace('\n', '\r');
             string[] lines = whole_file.Split(new char[] { '\r' },
             StringSplitOptions.RemoveEmptyEntries);
-
-            // See how many rows and columns there are.
             int num_rows = lines.Length;
             int num_cols = lines[0].Split(',').Length;
-
-            // Allocate the data array.
             string[,] values = new string[num_rows, num_cols];
-
-            // Load the array.
             for (int r = 0; r < num_rows; r++)
             {
                 string[] line_r = lines[r].Split(',');
@@ -195,16 +167,12 @@ namespace coviddataproject1
                     values[r, c] = line_r[c];
                 }
             }
-            // Return the values.
             return values;
         }
 
         static void Main(string[] args)
         {
-            //Program p = new Program();
-            //p.loadMainMenu();
             Console.Clear();
-            
             cityList = new List<City>();
             displayMainMenu();
         }
